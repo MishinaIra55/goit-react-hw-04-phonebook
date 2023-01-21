@@ -94,7 +94,7 @@ import { useEffect, useState } from 'react';
 import ContactForm from './ContactForm/ContactForm ';
 import { nanoid } from 'nanoid';
 
-export const  App =() => {
+export const App =() => {
   const [filter, setFilter] = useState('');
   const [contacts, setContacts] = useState([]);
 
@@ -109,7 +109,6 @@ export const  App =() => {
   }, []);
 
   useEffect((prevState) => {
-    console.log(contacts);
     if (contacts.length > 0) {
       localStorage.setItem('contacts', JSON.stringify(contacts));
     }

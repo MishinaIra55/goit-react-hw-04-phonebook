@@ -9,12 +9,11 @@ class ContactForm extends Component {
     number: '',
   }
 
-  handleInputChange = event => {
-    const { name, number, value } = event.currentTarget;
 
+  handleInputChange = event => {
+    const {name, value} = event.target;
     this.setState({
-      [name]: value,
-      [number]: value,
+      [name]: value
     })
   };
 
