@@ -1,0 +1,16 @@
+.filter__input {
+  width: 200px;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+
+  border: 2px solid #eee;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+
+  box-sizing: content-box;
+  display: block;
+}
+.filter__label {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px
+}
