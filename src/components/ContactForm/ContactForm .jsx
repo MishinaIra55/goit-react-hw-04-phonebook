@@ -22,7 +22,6 @@ class ContactForm extends Component {
     event.preventDefault();
 
     const checkName = this.props.addContact(this.state);
-    console.log(checkName);
 
     if(checkName) {
       this.reset();
