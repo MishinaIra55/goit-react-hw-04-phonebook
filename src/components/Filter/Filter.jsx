@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import styles from '../ContactForm/ContactForm.module.css';
 import styles from './Filter.module.css'
 
 const Filter = ( {value, onChange}) => (
